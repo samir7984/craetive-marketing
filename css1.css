@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins,sans-serif;
+}
+.hero{
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#a700ff,#4d19db);
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    border: #fff;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+nav{
+    align-items: center;
+    display: flex;
+    padding: 30px 0;
+}
+.logo{
+    width: 150px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 15px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.btn{
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 5px 6px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.col1{
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.col2{
+    flex-basis: 55%;
+    min-width: 300px;
+    margin-bottom: 30px;
+}
+.col1 img{width: 100%;}
+.col2 h1{
+font-size: 62px;
+font-weight: 600px;
+color: #fff;
+
+}
+.col2 h1 span{color: yellow;}
+.col2 p{
+    color: #fff;
+    margin: 10px 0 50px;
+    max-width: 580px;
+
+}
+.col2 .btn{background: #fff;
+    color:#4d19db ;
+    font-weight: 500px;
+    margin-left: 0;
+    margin-right: 30px;
+}
+.col2 a{text-decoration: none; color: #fff;}
+.col1 .elements{
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: move 2.5s linear infinite;
+}
+@keyframes move{
+    0%{
+        transform: translate(-15px,0);
+    }
+    50%{
+        transform: translate(0,-15px);
+    }
+    100%{
+        transform: translate(-15px,0);
+    }
+}
+.hero .t1{
+    position: absolute;
+    left: 50%;
+    top: -180px;
+    transform: translateX(-50%);
+    width: 400px;
+    z-index: -1;
+    opacity: .7;
+}
+.hero .t2{
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    z-index: -1;
+    opacity: .7;
+}
+.hero .circle{
+    position: absolute;
+    right: -100px;
+    bottom: -300px;
+     width: 500px;
+    z-index: -1;
+opacity: .5;}
+
+.samir{
+    
+    color:#fff;
+    padding: 400px;
+
+    
+
+}
+.samir:hover{color: green;}
