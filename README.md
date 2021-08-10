@@ -1,1 +1,1 @@
-# craetive-marketing
+# creative-marketing
